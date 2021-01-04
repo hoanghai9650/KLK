@@ -1,0 +1,21 @@
+/* độ ưu tiên là 100 */
+#test {
+  background-color: tomato;
+}
+
+/* độ ưu tiên là 110 */
+#test.test {
+  background-color: teal;
+}
+
+/* độ ưu tiên là 1 */
+h1 {
+  background-color: blue;
+  text-align: center;
+}
+
+/* ghi đè css */
+/* độ ưu tiên là 111 */
+h1#test.test {
+  background-color: yellow;
+}

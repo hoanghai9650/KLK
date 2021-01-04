@@ -1,0 +1,125 @@
+/* GLOBAL */
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.clear{
+  clear: both;
+}
+
+/* HEADER */
+/* 
+    thẻ block : width = 100%
+    thẻ inline : width = nội dung
+*/
+.header ul {
+  padding: 10px 5px;
+  background-color: black;
+}
+
+.header ul li {
+  margin-left: 5px;
+  margin-right: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  /* margin : top right bottom left */
+  margin: 0px 5px 0px 5px;
+  /* margin : top-bottom right-left */
+  margin: 0px 5px;
+  display: inline;
+}
+
+.header ul li a {
+  font-size: 22px;
+  color: white;
+  text-decoration: none;
+}
+
+/* carousel */
+.carousel {
+  background-image: url(./../img/slider_1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 500px;
+  background-position: center;
+}
+
+/* intro */
+.intro {
+  margin: 30px 0px;
+}
+.intro .description span {
+  color: red;
+  font-weight: 700;
+}
+
+/* PRODUCT */
+.product{
+  padding: 70px 0;
+}
+
+.product__item {
+  float: left;
+  width: 25%;
+  /* margin:0 20px ; */
+  padding:0 20px ;
+}
+
+.product__item img {
+  width: 100%;
+}
+
+/* BANNER */
+.banner{
+  background-image: url(../img/nature.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 400px;
+  position: relative;
+}
+
+.banner__circle {
+  position: absolute;
+  /* top, right, bottom, left */
+  top:50px;
+  left: 250px;
+
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  /* rgba */
+  background-color: rgba(255, 0, 0, 0.5);
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  /* opacity: 0.5; */
+}
+/*Service*/
+.services {
+  padding: 20px 20px; 
+}
+.services__item {
+  float: left;
+  width: 33.33%;
+  text-align: center;
+  padding: 0 50px;
+}
+
+.services__item i {
+  font-size: 40px;
+  color: black;
+}
+.footer {
+  background-color: black;
+  width: 100%;
+  padding: 70px 0;
+  
+}
+.footer__content{
+  text-align: center;
+
+}
+.footer__content h1, .footer__content p{
+  color: white;
+}
